@@ -1,0 +1,17 @@
+
+longitud1=int(input("Ingrese la primera longitud"))
+longitud2=int(input("Ingrese la segunda longitud"))
+longitud3=int(input("Ingrese la terce longitud"))
+
+
+if longitud1 > longitud2 and longitud2 > longitud3:
+  print("El trinagulo es valido")
+else:
+  print ("No es un triangulo")
+if longitud1==longitud2 and longitud2==longitud3:
+  print("El triangulo es Equilátero")
+elif longitud1==longitud2 or longitud2==longitud3:
+  print("El triangulo es Isósceles")
+elif longitud1!=longitud2 and longitud2!=longitud3:
+  print("El triangulo es Escaleno")
+  
